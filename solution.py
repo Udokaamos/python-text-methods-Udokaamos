@@ -7,6 +7,11 @@ str_text2 = str_text.replace("USA", country)
 print(str_text2)
 
 # Task 2
+"""
+when you enter a sentence and the sentece has the word 'blue'.
+Anywhere it finds blue, it will be replaced with red.
+This is because it was specified.
+"""
 text = input("Enter a sentence: ")
 my_text = text.replace("blue", "red", 1)
 print(my_text)
